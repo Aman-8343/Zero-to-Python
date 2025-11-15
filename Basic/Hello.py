@@ -1,7 +1,3 @@
-print("o hero")
+print("hii there")
 
 
-def hero(n):
-    print(n)
-
-hero("ghjgf")
