@@ -9,3 +9,11 @@ for i in range(1,n+1):
     sum+=i
 
 print(sum)
+
+
+def sum(a,b):
+    s=a+b
+    return s
+
+ans=sum(3,5)
+print(ans)
