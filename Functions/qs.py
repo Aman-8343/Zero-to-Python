@@ -16,6 +16,8 @@
 
 # print(even_no(3,40))
 
+
+
 #count number of digits
 # def func(n):
 #     count=0
@@ -29,10 +31,23 @@
 
 
 #number guess
-number =56
-a=int(input("Guess the number :"))
-if a==number:
-    print("you guess it right ")
-elif a>number:
-    print("too high")   
-else: print("too low")        
+# number =56
+# a=int(input("Guess the number :"))
+# if a==number:
+#     print("you guess it right ")
+# elif a>number:
+#     print("too high")   
+# else: print("too low")        
+
+
+
+#digits of a number
+def digits(n):
+    while(n>0):
+        print(n%10)
+        n=n//10
+    return n    
+
+ans=digits(3245)
+print(ans)
+
