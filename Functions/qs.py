@@ -42,12 +42,16 @@
 
 
 #digits of a number
-def digits(n):
-    while(n>0):
-        print(n%10)
-        n=n//10
-    return n    
+# def digits(n):
+#     while(n>0):
+#         print(n%10)
+#         n=n//10
+#     return n    
 
-ans=digits(3245)
-print(ans)
+# ans=digits(3245)
+# print(ans)
 
+#number that are divible by 5 and 3
+for i in range(1,101):
+    if i%3==0 and i%5==0 :
+        print(i)
