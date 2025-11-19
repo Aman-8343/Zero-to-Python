@@ -17,12 +17,22 @@
 # print(even_no(3,40))
 
 #count number of digits
-def func(n):
-    count=0
-    while(n>0):
-        count+=1
-        n//=10
-    return count
+# def func(n):
+#     count=0
+#     while(n>0):
+#         count+=1
+#         n//=10
+#     return count
            
     
-print(func(0))    
+# print(func(0))    
+
+
+#number guess
+number =56
+a=int(input("Guess the number :"))
+if a==number:
+    print("you guess it right ")
+elif a>number:
+    print("too high")   
+else: print("too low")        
