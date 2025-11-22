@@ -4,7 +4,7 @@ idx=0
 
 for val in nums:    
     if(val==x):
-        print(f"x found at index {idx}")
+        print(f"{x} found at index {idx}")
         break
     else: idx+=1
 
