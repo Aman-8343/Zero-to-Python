@@ -10,3 +10,7 @@ print(info.keys())
 print(type(info.keys()))
 
 print(info.values())
+
+items=info.items()
+print(items)   #return all key value pairs
+
