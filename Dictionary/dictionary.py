@@ -10,3 +10,4 @@ info ={
 
 info["name"]="hero2"
 print(info["name"])
+print(info[3.14])
