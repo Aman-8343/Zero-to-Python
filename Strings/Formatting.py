@@ -13,3 +13,8 @@ print("sum of {1} and {0} is {2}".format(a,b,sum))
 
 #value based formatting
 print("val of {a} and {b}".format(a=5,b=7))
+
+#F strings
+d=5
+e=6
+print(f"sum of {d} and {e} is {d+e}")
