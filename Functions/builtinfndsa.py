@@ -1,5 +1,5 @@
-#pallindrome check
-
+#palindrome check
+'''
 n=input("Enter a string ");
 rev=""
 
@@ -13,3 +13,24 @@ if n==rev:
      print("palidrome string") 
 else:
      print ("not a palindrome")
+     '''
+
+
+#avg of list of integers
+'''
+nums=[12,3,45,76,4,3,33]
+sum=0
+for i in nums:
+    sum+=i
+
+print (int(sum/len(nums)) )
+'''
+
+#sort two lists
+list1=[1,2,7]
+list2=[4,6,5]
+
+mergelist=list1+list2
+
+mergelist.sort();
+print(mergelist);
