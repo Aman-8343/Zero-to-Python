@@ -38,6 +38,7 @@ print(mergelist);
 '''
 
 #odd and even tuple   (note:tuple tuple are immutable we cannot create another tuple to insert)
+'''
 tup=(1,2,3,4,5,6,7,8,9)
 tupodd=[]
 tupeven=[]
@@ -50,3 +51,6 @@ for i in tup:
 
 print(tupodd)
 print(tupeven)
+'''
+
+
