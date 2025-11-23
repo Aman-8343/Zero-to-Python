@@ -54,3 +54,11 @@ print(tupeven)
 '''
 
 
+#count no of spaces in stiring
+strr=input("Enter a string ")
+count=0
+for i in strr:
+    if i==" ":
+        count+=1
+
+print("no of spaces are :",count)
