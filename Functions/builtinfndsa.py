@@ -55,6 +55,7 @@ print(tupeven)
 
 
 #count no of spaces in stiring
+'''
 strr=input("Enter a string ")
 count=0
 for i in strr:
@@ -62,3 +63,14 @@ for i in strr:
         count+=1
 
 print("no of spaces are :",count)
+'''
+
+#two list share common element
+list1=[1,2,3,4,5]
+list2=[6,7,8,9,10]
+set1=set(list1)
+set2=set(list2)
+if set1.intersection(set2):
+    print(" common element ")
+else:
+    print("common element abset")
