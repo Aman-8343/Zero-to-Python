@@ -13,5 +13,5 @@ print(s)
 s2={3,43,53,5,33,43}
 
 
-print(s.intersection(s2))
+print(s.intersection(s2))             
 print(s.union(s2))
