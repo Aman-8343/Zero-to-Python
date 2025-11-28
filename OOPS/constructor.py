@@ -1,5 +1,11 @@
+#constructor is called by using __init__ method
+
 class student :
-    def __init__ (self,name,gpa):
+
+    # def _init(self):
+    #     print("only one paramenter i.e self") # default constructor
+
+    def __init__ (self,name,gpa):            # parameterized construtor
         self.name=name;
         self.gpa=gpa;
 
