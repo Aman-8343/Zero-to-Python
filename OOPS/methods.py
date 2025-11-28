@@ -32,3 +32,19 @@ l1.get_storage_type()
 
 
 
+#static method ->  no compulsory parameter , cannot acces class and instance attributes, decorator(@staticmethod)
+
+
+class laptop:
+    storage_type="ssd"
+
+    @staticmethod
+    def calc_price(price,discount):
+        final_price=price-(discount*price/100)
+        print(f"final price is : {final_price}")
+
+
+l1=laptop()
+l1.calc_price(40_000,10)
+
+
