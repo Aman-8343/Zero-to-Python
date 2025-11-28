@@ -13,10 +13,17 @@ class online_store :
     def cnt_product(cls):
         print(f"total product is {cls.count}")
 
+    
+    @staticmethod
+    def calcdiscnt(price,discount):
+        print(f"final prince ={ price- price*discount/100}")
+
 p1=online_store("pen",10);
-p1=online_store("phone",10000);
-p1=online_store("phoN",1000);
+p2=online_store("phone",10000);
+p3=online_store("phoN",1000);
 
 p1.getinfo()
 
 online_store.cnt_product()
+
+p2.calcdiscnt(p2.price,13)
