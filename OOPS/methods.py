@@ -15,3 +15,20 @@ l1=laptop("16gb",256)
 print(l1.ram)
 
 l1.get_info()
+
+
+
+#class methods -> First parameter cls, access class attributes, use decorator(@classmethod)
+
+class laptop:
+    storage_type="ssd"
+
+    @classmethod
+    def get_storage_type(cls):
+        print(f"storage type ={cls.storage_type}")
+
+l1=laptop()
+l1.get_storage_type()
+
+
+
