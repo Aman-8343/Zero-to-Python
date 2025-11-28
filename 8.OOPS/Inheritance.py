@@ -1,5 +1,5 @@
 # reusing attributes and functions of parent class
-
+'''
 class employee:
     company = "Google"
     st_time="5"
@@ -22,3 +22,22 @@ print(t1.name,t1.st_time)
 
 t1.change_st_time("6")
 print(t1.name,t1.st_time)
+'''
+
+
+#multilevel inheritance
+class emp:
+    st_time="5"
+    end_time="7"
+
+class admin(emp):
+    def __init__(self,role):
+        self.role=role
+
+class accountant(admin):
+    def __init__(self,salary,role):
+        super().__init__(role)         # super() call the parent class constructor
+        self.salary=salary
+
+acc1=accountant("3434","ca")
+print(acc1.salary,acc1.role)
