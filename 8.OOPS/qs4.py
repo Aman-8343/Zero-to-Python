@@ -103,7 +103,7 @@ t1.area(4,5)
         
 '''
 
-
+'''
 #abstract class
 from abc import ABC,abstractmethod
 
@@ -133,6 +133,30 @@ ft=full_time()
 ft.calc_salary(6000)
 c1=contract()
 c1.calc_salary(9000)
+'''
+
+
+#constructor overloading 
+class Person:
+    def __init__(self, name, age=None, address=None):
+        self.name = name
+        self.age = age
+        self.address = address
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Address:", self.address)
+
+
+p1 = Person("Aman")
+p2 = Person("Aman", 21)
+p3 = Person("Aman", 21, "Haridwar")
+
+p1.display()
+p2.display()
+p3.display()
+
 
 
 
