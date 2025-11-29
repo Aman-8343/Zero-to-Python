@@ -9,3 +9,6 @@ except ValueError:
     print("invalid input")
 else :
     print(f"ans is {ans}")
+
+finally:     #always execute
+    print("end of code")
