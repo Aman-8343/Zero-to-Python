@@ -67,7 +67,7 @@ b.display_reviews()
 
 
 #fuction overriding
-
+'''
 class shape:
     def area(self):
         print("area is :")
@@ -101,6 +101,42 @@ r1.area(5,6)
 t1=triangle()
 t1.area(4,5)
         
+'''
+
+
+#abstract class
+from abc import ABC,abstractmethod
+
+class Emp:
+    @abstractmethod
+    def calc_salary(self):
+        pass
+
+class Intern(Emp):
+    def calc_salary(self,salary):
+        self.salary=salary
+        print(self.salary)
+        
+class full_time(Emp):
+    def calc_salary(self,salary):
+        self.salary=salary
+        print(self.salary)
+
+class contract(Emp):
+    def calc_salary(self,salary):
+        self.salary=salary
+        print(self.salary)
+
+i1=Intern()
+i1.calc_salary(5000)
+ft=full_time()
+ft.calc_salary(6000)
+c1=contract()
+c1.calc_salary(9000)
+
+
+
+
 
 
         
