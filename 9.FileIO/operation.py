@@ -1,12 +1,5 @@
-f=open("data.txt","r")
+f=open("data.txt","w")
 
-
-data=f.readline()
-print(data)
-
-
-
-data=f.readline()
-print(data)
+f.write("overwrittten text")
 
 f.close()
