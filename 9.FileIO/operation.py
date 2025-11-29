@@ -13,3 +13,7 @@ with open("sample.txt","r") as f:
     print(data)
     print(len(data))
 
+#delete file
+import os
+os.remove("sample2.txt")
+
