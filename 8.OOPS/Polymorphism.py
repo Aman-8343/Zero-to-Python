@@ -17,7 +17,7 @@ e1=emp()
 e1.get_design()
 
 
-#duck Typing -> if it walk like a duck and quacks like a duck , it is a duck
+#duck Typing -> if it walk like a duck and quacks like a duck , it must be a duck
 
 class pycharm:
     def execute(self):
