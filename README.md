@@ -20,14 +20,3 @@ This repo contains all my notes, code snippets, mini-projects, and exercises as 
 
 ---
 
-## 📁 Folder Structure
-
-```bash
-python-learning/
-├── basics/
-├── control-flow/
-├── functions/
-├── data-structures/
-├── oop/
-├── projects/
-└── README.md
