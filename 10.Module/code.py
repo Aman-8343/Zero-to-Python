@@ -1,5 +1,6 @@
 import json
 
+'''
 py_dict={
     "name":"hero",
     "ishero":"true"
@@ -15,3 +16,12 @@ print(py_obj)
 print(type(py_obj))
 
 print(strr,type(strr))
+'''
+
+
+#dealing with files
+
+with open("data.json","r") as f:
+     obj=json.load(f)
+     print(obj)
+     print(type(obj))
