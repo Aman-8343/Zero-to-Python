@@ -21,7 +21,15 @@ print(strr,type(strr))
 
 #dealing with files
 
-with open("data.json","r") as f:
-     obj=json.load(f)
-     print(obj)
-     print(type(obj))
+# with open("data.json","r") as f:
+#      obj=json.load(f)
+#      print(obj)
+#      print(type(obj))
+
+data={
+     "name":"aman","isbo":True
+}
+
+with open("data.json","w") as f:
+    json.dump(data,f,indent=4,sort_keys=True)
+    

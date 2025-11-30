@@ -1,10 +1,4 @@
 {
-    "name": "Sample Module",
-    "version": "1.0.0",
-    "description": "This is a sample module for demonstration purposes.",
-    "permissions": [
-        "read",
-        "write",
-        "execute"
-    ]  
+    "isbo": true,
+    "name": "aman"
 }
